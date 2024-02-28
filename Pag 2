@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Zero - Recife</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pontos Turísticos - Recife Antigo</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Torre Malakoff</h2>
+            <img src="torre_malakoff.jpg" alt="Foto da Torre Malakoff em Recife">
+            <p>A Torre Malakoff é um importante ponto turístico, construída no século XIX...</p>
+        </section>
+
+        <section>
+            <h2>Praça do Arsenal</h2>
+            <img src="praca_arsenal.jpg" alt="Foto da Praça do Arsenal em Recife">
+            <p>A Praça do Arsenal é conhecida por sua arquitetura histórica e é palco de...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pontos Turísticos Recife - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
