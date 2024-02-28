@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Zero - Recife</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marco Zero - Recife</h1>
+    </header>
+    
+    <main>
+        <img src="marco_zero.jpg" alt="Foto do Marco Zero em Recife">
+        
+        <p>O Marco Zero é um dos pontos turísticos mais emblemáticos de Recife, localizado...</p>
+        
+        <p>Construído em <time datetime="1900-01-01">1900</time>, o Marco Zero marca o início da contagem...</p>
+        
+        <p>Além de sua importância histórica, o local é palco de eventos culturais e festivais, atraindo...</p>
+        
+        <!-- Adicionando link para a nova página -->
+        <p>Quer explorar mais pontos turísticos? <a href="pontos_turisticos.html">Clique aqui</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Marco Zero Recife - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
